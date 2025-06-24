@@ -306,12 +306,12 @@ class StreamlitQuizApp:
                         if len(st.session_state.quiz_state['answers']) <= current_q:
                             st.session_state.quiz_state['answers'].append(answer)
                         else:
-                            st.session_state.quiz_state['answers'][current_q] = answer
-                        
+                            st.session_state.quiz_state['answers'][current_q] = answer                        
                         # Calculate score
                         score = 0
                         for i, user_answer in enumerate(st.session_state.quiz_state['answers']):
-                            if user_answer == st.session_state.questions[i]['correct_answer']:                        score += 1
+                            if user_answer == st.session_state.questions[i]['correct_answer']:
+                                score += 1
                         
                         st.session_state.quiz_state['score'] = score
                         st.session_state.quiz_state['quiz_finished'] = True

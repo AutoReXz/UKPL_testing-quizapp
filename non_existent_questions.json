@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "Apa kepanjangan dari CPU?",
+    "options": {
+      "A": "Central Processing Unit",
+      "B": "Computer Personal Unit",
+      "C": "Central Program Unit",
+      "D": "Computer Processing Unit"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "Manakah yang merupakan bahasa pemrograman?",
+    "options": {
+      "A": "HTML",
+      "B": "CSS",
+      "C": "Python",
+      "D": "HTTP"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Berapa hasil dari 2 + 2 * 3?",
+    "options": {
+      "A": "12",
+      "B": "8",
+      "C": "10",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Apa fungsi dari RAM?",
+    "options": {
+      "A": "Menyimpan data permanen",
+      "B": "Memproses data",
+      "C": "Menyimpan data sementara",
+      "D": "Menampilkan data"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Siapa pendiri Microsoft?",
+    "options": {
+      "A": "Steve Jobs",
+      "B": "Bill Gates",
+      "C": "Mark Zuckerberg",
+      "D": "Larry Page"
+    },
+    "correct_answer": "B"
+  }
+]
