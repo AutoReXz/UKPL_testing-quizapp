@@ -1,6 +1,6 @@
 # Quiz App Testing Project
 
-This Software Quality Testing coursework uses a Streamlit quiz app for white-box testing and black-box test planning. The app reads questions from JSON, scores submitted answers, and displays results.
+This Software Quality Testing coursework uses a Streamlit quiz app for white-box and black-box testing. The app reads questions from JSON, scores submitted answers, and displays results.
 
 ## Run the Quiz
 
@@ -19,12 +19,12 @@ Install pytest into the same environment and run the tests from the repository r
 
 ```bash
 python -m pip install pytest
-python -m pytest whitebox
+python -m pytest blackbox whitebox
 ```
 
 | Test area | What it covers |
 | --- | --- |
-| [Black-box tests](blackbox/) | Test categories and placeholder files for unit, integration, load, and stress testing. |
+| [Black-box tests](blackbox/) | Quiz scoring and empty question-bank checks through the Streamlit interface. |
 | [White-box tests](whitebox/) | Control-flow and independent-path exercises for selected quiz functions. |
 
-The [white-box notes](whitebox/whitebox_documentation.md) describe the scenarios. The flow graphs cover [loading questions](whitebox/flowgraph_load_questions.png) and [presenting the quiz](whitebox/flowgraph_show_quiz_question.png).
+See the [black-box notes](blackbox/blackbox_documentation.md) for the current scenarios and planned checks. The [white-box notes](whitebox/whitebox_documentation.md) describe the scenarios. The flow graphs cover [loading questions](whitebox/flowgraph_load_questions.png) and [presenting the quiz](whitebox/flowgraph_show_quiz_question.png).

@@ -13,7 +13,7 @@ Untuk whitebox testing, saya akan menganalisis fungsi `load_questions()` dan `sh
 ## 1. Flow Graph
 
 ### Flow Graph untuk fungsi `load_questions()`
-![Flow Graph untuk fungsi load_questions()](flowgraph.png)
+![Flow Graph untuk fungsi load_questions()](flowgraph_load_questions.png)
 
 ### Flow Graph untuk fungsi `show_quiz_question()`
 
